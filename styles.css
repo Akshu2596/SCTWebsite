@@ -274,6 +274,38 @@ img {
   padding: 20px;
 }
 
+.donate {
+  background: #ffffff;
+}
+
+.donate-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 24px;
+}
+
+.donate-card {
+  background: var(--light);
+  padding: 28px;
+  border-radius: 16px;
+}
+
+.donate-card.secondary {
+  background: #fff5e1;
+}
+
+.donate-card ul {
+  margin: 16px 0 24px;
+  padding-left: 18px;
+  color: var(--muted);
+}
+
+.donate-note {
+  margin-top: 16px;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
 .get-involved {
   background: var(--primary);
   color: white;
